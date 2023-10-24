@@ -1,0 +1,42 @@
+
+  body {
+    background-color: #1d1717;
+    
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 16px; /* Default font size for the body */
+  }
+
+  .container {
+    text-align: center;
+
+    display: flex
+  }
+
+  .logo {
+    
+        display: flex;
+        align-items: space-between;
+        padding: 20px;
+        color: #fff;
+        margin-top: -100px;
+    }
+  
+
+  h1 {
+    color: white;
+    font-size: 2em; /* 2 times the font size (16px) */
+    margin: 0.625em 0; /* 10px / 16px = 0.625em */
+  }
+
+  .profile-icons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .profile-icon {
+    width: 6em; /* 6 times the font size (16px) */
+    margin: 0.625em; /* 10px / 16px = 0.625em */
+    border-radius: 50%;
+  }
